@@ -3,9 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# data/subf with large files
+# data/subf with possibly large files
 data/raw
 data/intermediate
+# big file:
+data/production/8h9b-rp9u.csv
 
 # uda
 jwt
